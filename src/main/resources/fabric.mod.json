@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "assistmod",
+  "version": "${version}",
+  "name": "Assist Menu",
+  "description": "Press Right Shift to open a menu of toggleable player assists.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.assistmod.AssistMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
