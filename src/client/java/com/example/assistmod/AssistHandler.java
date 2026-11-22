@@ -115,7 +115,6 @@ public final class AssistHandler {
         player.getInventory().setSelectedSlot(slot);
 
         client.gameMode.useItemOn(player, InteractionHand.MAIN_HAND, hit);
-        player.swing(InteractionHand.MAIN_HAND);
 
         // Go back to the original slot if the player wasn't holding blocks.
         if (previousSlot != slot && !isBlock(player.getInventory().getItem(previousSlot))) {
